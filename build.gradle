@@ -6,7 +6,7 @@ buildscript {
 	}
 
 	dependencies {
-		classpath 'com.android.tools.build:gradle:3.0.1'
+		classpath 'com.android.tools.build:gradle:3.4.0'
 	}
 }
 
@@ -23,14 +23,14 @@ allprojects {
 apply plugin: 'com.android.application'
 
 dependencies {
-	compile fileTree(dir: 'libs', include: ['*.jar'])
-	compile(name: 'google_unity_wrapper', ext:'aar')
-	compile(name: 'support-v4-23.4.0', ext:'aar')
-	compile(name: 'unity_plugin_merged', ext:'aar')
-	compile 'com.dji:dji-sdk:4.5.1'
-	provided 'com.dji:dji-sdk-provided:4.5.1'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation(name: 'google_unity_wrapper', ext:'aar')
+    implementation(name: 'support-v4-23.4.0', ext:'aar')
+    implementation(name: 'unity_plugin_merged', ext:'aar')
+    implementation 'com.dji:dji-sdk:4.5.1'
+	compileOnly 'com.dji:dji-sdk-provided:4.5.1'
     // For @Nullable/@NonNull
-    compile 'com.android.support:support-annotations:+'
+    implementation 'com.android.support:support-annotations:+'
 }
 
 android {

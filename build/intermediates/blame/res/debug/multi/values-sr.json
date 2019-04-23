@@ -1,0 +1,577 @@
+[
+    {
+        "outputFile": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\res\\merged\\debug\\values-sr\\values-sr.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 61,
+                        "endOffset": 112
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 117,
+                    "endColumn": 75,
+                    "endOffset": 188
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 117,
+                        "endColumn": 75,
+                        "endOffset": 188
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 193,
+                    "endColumn": 73,
+                    "endOffset": 262
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 193,
+                        "endColumn": 73,
+                        "endOffset": 262
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 267,
+                    "endColumn": 96,
+                    "endOffset": 359
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 267,
+                        "endColumn": 96,
+                        "endOffset": 359
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 364,
+                    "endColumn": 77,
+                    "endOffset": 437
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 364,
+                        "endColumn": 77,
+                        "endOffset": 437
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 442,
+                    "endColumn": 220,
+                    "endOffset": 658
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 442,
+                        "endColumn": 220,
+                        "endOffset": 658
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 663,
+                    "endColumn": 52,
+                    "endOffset": 711
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 663,
+                        "endColumn": 52,
+                        "endOffset": 711
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 716,
+                    "endColumn": 56,
+                    "endOffset": 768
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 716,
+                        "endColumn": 56,
+                        "endOffset": 768
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 773,
+                    "endColumn": 64,
+                    "endOffset": 833
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 773,
+                        "endColumn": 64,
+                        "endOffset": 833
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 838,
+                    "endColumn": 50,
+                    "endOffset": 884
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 838,
+                        "endColumn": 50,
+                        "endOffset": 884
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 889,
+                    "endColumn": 90,
+                    "endOffset": 975
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 889,
+                        "endColumn": 90,
+                        "endOffset": 975
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 980,
+                    "endColumn": 71,
+                    "endOffset": 1047
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 980,
+                        "endColumn": 71,
+                        "endOffset": 1047
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1052,
+                    "endColumn": 98,
+                    "endOffset": 1146
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1052,
+                        "endColumn": 98,
+                        "endOffset": 1146
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1151,
+                    "endColumn": 68,
+                    "endOffset": 1215
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1151,
+                        "endColumn": 68,
+                        "endOffset": 1215
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1220,
+                    "endColumn": 87,
+                    "endOffset": 1303
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1220,
+                        "endColumn": 87,
+                        "endOffset": 1303
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1308,
+                    "endColumn": 58,
+                    "endOffset": 1362
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1308,
+                        "endColumn": 58,
+                        "endOffset": 1362
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1367,
+                    "endColumn": 103,
+                    "endOffset": 1466
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1367,
+                        "endColumn": 103,
+                        "endOffset": 1466
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1471,
+                    "endColumn": 68,
+                    "endOffset": 1535
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1471,
+                        "endColumn": 68,
+                        "endOffset": 1535
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1540,
+                    "endColumn": 268,
+                    "endOffset": 1804
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1540,
+                        "endColumn": 268,
+                        "endOffset": 1804
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1809,
+                    "endColumn": 77,
+                    "endOffset": 1882
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1809,
+                        "endColumn": 77,
+                        "endOffset": 1882
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1887,
+                    "endColumn": 75,
+                    "endOffset": 1958
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1887,
+                        "endColumn": 75,
+                        "endOffset": 1958
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1963,
+                    "endColumn": 228,
+                    "endOffset": 2187
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1963,
+                        "endColumn": 228,
+                        "endOffset": 2187
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2192,
+                    "endColumn": 121,
+                    "endOffset": 2309
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 2192,
+                        "endColumn": 121,
+                        "endOffset": 2309
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2314,
+                    "endColumn": 73,
+                    "endOffset": 2383
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 2314,
+                        "endColumn": 73,
+                        "endOffset": 2383
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2388,
+                    "endColumn": 90,
+                    "endOffset": 2474
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 2388,
+                        "endColumn": 90,
+                        "endOffset": 2474
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2479,
+                    "endColumn": 78,
+                    "endOffset": 2553
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 2479,
+                        "endColumn": 78,
+                        "endOffset": 2553
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2558,
+                    "endColumn": 100,
+                    "endOffset": 2654
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 2558,
+                        "endColumn": 100,
+                        "endOffset": 2654
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2659,
+                    "endColumn": 67,
+                    "endOffset": 2722
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 2659,
+                        "endColumn": 67,
+                        "endOffset": 2722
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2727,
+                    "endColumn": 113,
+                    "endOffset": 2836
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 2727,
+                        "endColumn": 113,
+                        "endOffset": 2836
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2841,
+                    "endColumn": 79,
+                    "endOffset": 2916
+                },
+                "from": {
+                    "file": "C:\\Users\\Sam\\Downloads\\Embedded-Unity-Drone-Control-Tango-Version--master\\build\\intermediates\\exploded-aar\\unity_plugin_merged\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 2841,
+                        "endColumn": 79,
+                        "endOffset": 2916
+                    }
+                }
+            }
+        ]
+    }
+]

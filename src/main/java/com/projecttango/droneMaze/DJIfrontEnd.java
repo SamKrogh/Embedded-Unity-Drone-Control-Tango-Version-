@@ -249,8 +249,9 @@ public class DJIfrontEnd extends GoogleUnityActivity {
     // getVideoFrame
     // returns a byte arra of RGB formatted image data ready for display in Unity as a Texture2D
     //-------------------------------------
-    public byte[] getVideoFrame() {
+    public byte[] getVid() {
         try {
+            Log.d(TAG, "K_tty's error message");
             return djiBack.getJdata();
         } catch (Exception e) {
             Log.d(TAG, "getVid: " + e.toString());
