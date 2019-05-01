@@ -68,7 +68,7 @@
       <!-- DJI SDK -->
     <meta-data android:name="IMMERSIVE_MODE" android:value="true" />
 
-      <activity android:name=".DJIfrontEnd"
+      <activity android:name=".DJIFrontend"
           android:screenOrientation="landscape">
           <intent-filter>
               <action android:name="android.intent.action.MAIN" />

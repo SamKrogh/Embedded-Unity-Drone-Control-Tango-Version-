@@ -55,7 +55,7 @@ import java.io.FileOutputStream;
 import java.nio.ByteBuffer;
 
 
-public class djiBackend extends Application{ //implements TextureView.SurfaceTextureListener{
+public class DJIBackend extends Application{ //implements TextureView.SurfaceTextureListener{
     public static final String FLAG_CONNECTION_CHANGE = "activationDemo_connection_change";
 
     private DJISDKManager.SDKManagerCallback mDJISDKManagerCallback;
@@ -86,7 +86,7 @@ public class djiBackend extends Application{ //implements TextureView.SurfaceTex
         return instance;
     }
 
-    public djiBackend() {
+    public DJIBackend() {
 
     }
 
