@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Embedded-Unity-Drone-Control-Tango-Version-.iml" filepath="$PROJECT_DIR$/Embedded-Unity-Drone-Control-Tango-Version-.iml" />
+      <module fileurl="file://$PROJECT_DIR$/droneMaze.iml" filepath="$PROJECT_DIR$/droneMaze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/droneMaze/droneMaze-droneMaze.iml" filepath="$PROJECT_DIR$/droneMaze/droneMaze-droneMaze.iml" />
     </modules>
   </component>
 </project>

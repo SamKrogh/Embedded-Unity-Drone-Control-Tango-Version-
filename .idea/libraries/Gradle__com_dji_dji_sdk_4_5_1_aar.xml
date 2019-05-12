@@ -1,19 +1,19 @@
 <component name="libraryTable">
   <library name="Gradle: com.dji:dji-sdk:4.5.1@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c76afbf19ee1cdfc55a167d8cc6a214/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/123cd5e8bcce2a9801f6cb27acdf32a4/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c76afbf19ee1cdfc55a167d8cc6a214/jars/libs/rxandroid-1.1.0.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c76afbf19ee1cdfc55a167d8cc6a214/jars/libs/converter-gson-2.2.0.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c76afbf19ee1cdfc55a167d8cc6a214/jars/libs/dji-rxjava-1.1.3.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c76afbf19ee1cdfc55a167d8cc6a214/jars/libs/adapter-rxjava2-2.2.0.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c76afbf19ee1cdfc55a167d8cc6a214/jars/classes.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c76afbf19ee1cdfc55a167d8cc6a214/jars/libs/rxjava-computation-expressions-0.21.1.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c76afbf19ee1cdfc55a167d8cc6a214/jars/libs/rxjava-2.0.0.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c76afbf19ee1cdfc55a167d8cc6a214/jars/libs/retrofit-2.2.0.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c76afbf19ee1cdfc55a167d8cc6a214/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c76afbf19ee1cdfc55a167d8cc6a214/jars/libs/logging-interceptor-3.6.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/123cd5e8bcce2a9801f6cb27acdf32a4/jars/libs/converter-gson-2.2.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/123cd5e8bcce2a9801f6cb27acdf32a4/jars/libs/rxjava-2.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/123cd5e8bcce2a9801f6cb27acdf32a4/jars/libs/rxjava-computation-expressions-0.21.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/123cd5e8bcce2a9801f6cb27acdf32a4/jars/libs/rxandroid-1.1.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/123cd5e8bcce2a9801f6cb27acdf32a4/jars/libs/dji-rxjava-1.1.3.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/123cd5e8bcce2a9801f6cb27acdf32a4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/123cd5e8bcce2a9801f6cb27acdf32a4/jars/libs/adapter-rxjava2-2.2.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/123cd5e8bcce2a9801f6cb27acdf32a4/jars/libs/retrofit-2.2.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/123cd5e8bcce2a9801f6cb27acdf32a4/jars/libs/logging-interceptor-3.6.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/123cd5e8bcce2a9801f6cb27acdf32a4/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

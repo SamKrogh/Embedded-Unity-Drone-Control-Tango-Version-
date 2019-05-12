@@ -55,7 +55,7 @@ import java.io.FileOutputStream;
 import java.nio.ByteBuffer;
 
 
-public class DJIBackend extends Application{ //implements TextureView.SurfaceTextureListener{
+public class djiBackend extends Application{ //implements TextureView.SurfaceTextureListener{
     public static final String FLAG_CONNECTION_CHANGE = "activationDemo_connection_change";
 
     private DJISDKManager.SDKManagerCallback mDJISDKManagerCallback;
@@ -86,7 +86,7 @@ public class DJIBackend extends Application{ //implements TextureView.SurfaceTex
         return instance;
     }
 
-    public DJIBackend() {
+    public djiBackend() {
 
     }
 
@@ -159,7 +159,7 @@ public class DJIBackend extends Application{ //implements TextureView.SurfaceTex
 
         };
 
-        //onSurfaceTextureAvailable(null,16*40,9*40); //for YUV data
+        onSurfaceTextureAvailable(null,16*40,9*40); //for YUV data
         mCodecManager.enabledYuvData(true);
 
         mCodecManager.setYuvDataCallback(new DJICodecManager.YuvDataCallback() {
@@ -289,8 +289,7 @@ public class DJIBackend extends Application{ //implements TextureView.SurfaceTex
 
      /* Video functions */
 
-    /*
-    @Override
+    //@Override
     public void onSurfaceTextureAvailable(SurfaceTexture surface, int width, int height) {
         Log.d(TAG, "onSurfaceTextureAvailable");
         if (mCodecManager == null) {
@@ -299,6 +298,7 @@ public class DJIBackend extends Application{ //implements TextureView.SurfaceTex
             Log.d(TAG, "onSurfaceTextureAvailable: "+ mCodecManager.toString());
         }
     }
+    /*
     @Override
     public void onSurfaceTextureSizeChanged(SurfaceTexture surface, int width, int height) {
         Log.d(TAG, "onSurfaceTextureSizeChanged");

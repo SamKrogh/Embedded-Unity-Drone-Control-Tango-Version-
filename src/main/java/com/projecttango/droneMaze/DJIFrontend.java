@@ -26,9 +26,6 @@ import android.view.WindowManager;
 import android.widget.Toast;
 import android.os.AsyncTask;
 
-// Unity Imports
-import com.google.unity.*;
-
 
 // Java Imports
 import java.util.ArrayList;
@@ -48,6 +45,7 @@ import dji.common.flightcontroller.virtualstick.FlightControlData;
 import dji.common.gimbal.Rotation;
 import dji.common.gimbal.RotationMode;
 import dji.common.handheldcontroller.ControllerMode;
+import dji.common.mission.followme.FollowMeMission;
 import dji.common.model.LocationCoordinate2D;
 import dji.common.util.CommonCallbacks;
 import dji.sdk.base.BaseComponent;
@@ -58,15 +56,17 @@ import dji.sdk.mission.followme.FollowMeMissionOperator;
 import dji.sdk.products.Aircraft;
 import dji.sdk.sdkmanager.DJISDKManager;
 import dji.common.flightcontroller.virtualstick.*;
+import dji.common.mission.followme.*;
 import dji.thirdparty.rx.Observable;
 import dji.thirdparty.rx.Subscription;
+import dji.thirdparty.rx.functions.Action1;
 import dji.thirdparty.rx.schedulers.Schedulers;
 
 
-public class DJIFrontend extends GoogleUnityActivity {
+public class DJIfrontEnd extends UnityPlayerActivity {
 
     // DJI Required -----------------------
-    private static final String TAG = DJIFrontend.class.getName();
+    private static final String TAG = DJIfrontEnd.class.getName();
     public static final String FLAG_CONNECTION_CHANGE = "dji_sdk_connection_change";
     private static BaseProduct mProduct;
     private Handler mHandler;
@@ -92,7 +92,7 @@ public class DJIFrontend extends GoogleUnityActivity {
     private static final int REQUEST_PERMISSION_CODE = 12345;
 
     //------------------------------------
-    private DJIBackend djiBack;
+    private djiBackend djiBack;
     private FlightController flightController;
     private FollowMeMissionOperator followOp;
     private Timer mSendVirtualStickDataTimer;
@@ -357,13 +357,13 @@ public class DJIFrontend extends GoogleUnityActivity {
 
     private void setupDroneConnection() {
         if (djiBack == null) {
-            djiBack = new DJIBackend();
+            djiBack = new djiBackend();
             djiBack.setContext(getApplication());
             djiBack.setUnityObject(mUnityPlayer);
             //djiBack.setResultReceiver(rec);
             djiBack.onCreate();
 
-            Log.d(TAG, "DJIBackend created");
+            Log.d(TAG, "djiBackend created");
         }
         IntentFilter filter = new IntentFilter();
         filter.addAction(djiBack.FLAG_CONNECTION_CHANGE);
@@ -520,8 +520,7 @@ public class DJIFrontend extends GoogleUnityActivity {
     // Currently errors with "Mission does not exist" error.
     // Commented out but retained for future work
     //-------------------------------------
-    /*
-    private void followMeStart() {
+    /*private void followMeStart() {
         if(null == locationManager) {
             startLocationService();
         }
@@ -586,8 +585,7 @@ public class DJIFrontend extends GoogleUnityActivity {
         } else{
             Toast.makeText(getApplicationContext(), followOp.getCurrentState().toString(), Toast.LENGTH_SHORT).show();
         }
-    }
-    */
+    }*/
 
     //-------------------------------------
     // followMeStop
@@ -894,7 +892,7 @@ public class DJIFrontend extends GoogleUnityActivity {
                 @Override
                 public void run() {
                     showToast("registering, pls wait...");
-                    DJISDKManager.getInstance().registerApp(DJIFrontend.this.getApplicationContext(), new DJISDKManager.SDKManagerCallback() {
+                    DJISDKManager.getInstance().registerApp(DJIfrontEnd.this.getApplicationContext(), new DJISDKManager.SDKManagerCallback() {
                         @Override
                         public void onRegister(DJIError djiError) {
                             if (djiError == DJISDKError.REGISTRATION_SUCCESS) {
