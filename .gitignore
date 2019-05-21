@@ -1,0 +1,7 @@
+.idea/
+app/build/tmp/
+app/build/generated/
+app/build/intermediates/
+app/build/outputs/
+local.properties
+*.lock
