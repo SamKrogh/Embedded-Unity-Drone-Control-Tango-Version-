@@ -136,7 +136,7 @@ public class DJIfrontEnd extends uwb.xr.unityembed.UnityPlayerActivity {
 
         @Override
         public void onReceive(Context context, Intent intent) {
-            Log.d(TAG, "broadcast receiver hit...");
+            //Log.d(TAG, "broadcast receiver hit...");
             refreshConnectionStatus();
         }
     };
@@ -189,7 +189,7 @@ public class DJIfrontEnd extends uwb.xr.unityembed.UnityPlayerActivity {
             try {
                 initFlightController();
             } catch (Exception e) {
-                Log.d(TAG, "failed to init flight controller");
+                Log.e(TAG, "failed to init flight controller");
                 state = "failed to init flight controller";
             }
         }
@@ -226,7 +226,7 @@ public class DJIfrontEnd extends uwb.xr.unityembed.UnityPlayerActivity {
             droneAttitude = new double[] {st.getAttitude().pitch, st.getAttitude().roll, st.getAttitude().yaw};
             state += "| Attitude: " + Arrays.toString(droneAttitude);
         } else {
-            Log.d(TAG, "flightControllerStatus: NULL");
+            Log.e(TAG, "flightControllerStatus: NULL");
         }
     }
 
@@ -269,7 +269,7 @@ public class DJIfrontEnd extends uwb.xr.unityembed.UnityPlayerActivity {
         try {
             return djiBack.getJdata();
         } catch (Exception e) {
-            Log.d(TAG, "getVid: " + e.toString());
+            Log.e(TAG, "getVid: " + e.toString());
             return null;
         }
     }
@@ -325,7 +325,7 @@ public class DJIfrontEnd extends uwb.xr.unityembed.UnityPlayerActivity {
     private void refreshConnectionStatus() {
         final BaseProduct mProduct = getProduct();
         if (null != mProduct && mProduct.isConnected()) {
-            Log.v(TAG, "refreshConnectionStatus: product connected");
+            //Log.v(TAG, "refreshConnectionStatus: product connected");
             String str = mProduct instanceof Aircraft ? "DJIAircraft" : "DJIHandHeld";
             if (null != mProduct.getModel()) {
                 productText = ("" + mProduct.getModel().getDisplayName());
@@ -334,11 +334,11 @@ public class DJIfrontEnd extends uwb.xr.unityembed.UnityPlayerActivity {
                 productText = ("Product Information: unknown");
             }
         } else {
-            Log.v(TAG, "refreshConnectionStatus: product not connected");
+            Log.e(TAG, "refreshConnectionStatus: product not connected");
             productText = "Product Information: unknown";
             connectionStatus = "No Product Connected";
         }
-        Log.d(TAG, "refreshConnectionStatus: " + connectionStatus);
+        //Log.d(TAG, "refreshConnectionStatus: " + connectionStatus);
     }
 
     //-------------------------------------
@@ -657,12 +657,12 @@ public class DJIfrontEnd extends uwb.xr.unityembed.UnityPlayerActivity {
         try {
             unregisterReceiver(mReceiver);
         }catch (Exception exc){
-            Log.d(TAG, "Receiver not regestered. No Problem.");
+            Log.w(TAG, "Receiver not regestered. No Problem.");
         }
         try{
             djiBack.onTerminate();
         }catch (Exception e){
-            Log.d(TAG, "Previewer not created.  No Problem.");
+            Log.w(TAG, "Previewer not created.  No Problem.");
         }
         super.onDestroy();
     }
@@ -712,9 +712,9 @@ public class DJIfrontEnd extends uwb.xr.unityembed.UnityPlayerActivity {
                             @Override
                             public void onResult(DJIError djiError) {
                                 if( null == djiError){
-                                    Log.d(TAG, "VIRTUAL STICK SENT: "+ mPitch + " "+mRoll+ " "+ mYaw+ " "+ mThrottle);
+                                    //Log.d(TAG, "VIRTUAL STICK SENT: "+ mPitch + " "+mRoll+ " "+ mYaw+ " "+ mThrottle);
                                 }else{
-                                    Log.d(TAG, "VIRTUAL STICK: " + djiError.toString());
+                                    Log.e(TAG, "ERR: VIRTUAL STICK: " + djiError.toString());
                                 }
                             }
                         });
@@ -909,7 +909,7 @@ public class DJIfrontEnd extends uwb.xr.unityembed.UnityPlayerActivity {
                             } else {
                                 showToast("Register sdk fails, please check the bundle id and network connection!");
                             }
-                            Log.v(TAG, djiError.getDescription());
+                            Log.v(TAG, "DJI OnRegister: " + djiError.getDescription());
                         }
 
                         @Override

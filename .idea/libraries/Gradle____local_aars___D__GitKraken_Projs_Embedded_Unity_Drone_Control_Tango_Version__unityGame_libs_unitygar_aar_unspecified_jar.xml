@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_aars__:D.\GitKraken Projs\Embedded-Unity-Drone-Control-Tango-Version-\unityGame\libs\unitygar.aar:unspecified@jar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2d60ea3284ef0660facba9fcb60e58c3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2d60ea3284ef0660facba9fcb60e58c3/jars/libs/tango_java_lib.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2d60ea3284ef0660facba9fcb60e58c3/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
