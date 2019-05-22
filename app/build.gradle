@@ -1,11 +1,16 @@
 apply plugin: 'com.android.application'
 
+ext.GAME_PACKAGE = project.hasProperty('GAME_PACKAGE') ? project.getProperty('GAME_PACKAGE') : ''
+ext.DJI_SDK_KEY = project.hasProperty('DJI_SDK_KEY') ? project.getProperty('DJI_SDK_KEY') : ''
+ext.GAME_ORIENTATION = project.hasProperty('GAME_ORIENTATION') ? project.getProperty('GAME_ORIENTATION') : 'landscape'
+
 android {
     compileSdkVersion 28
     buildToolsVersion '28.0.3'
 
     defaultConfig {
-        applicationId "com.projecttango.droneMaze"
+        applicationId GAME_PACKAGE
+        manifestPlaceholders = [ game_package:GAME_PACKAGE, my_dji_sdk_key:DJI_SDK_KEY, game_orientation:GAME_ORIENTATION ]
         minSdkVersion 24
         targetSdkVersion 28
         multiDexEnabled true
