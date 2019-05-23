@@ -32,6 +32,7 @@ import android.os.AsyncTask;
 
 // Java Imports
 import com.unity3d.player.UnityPlayer;
+import com.unity3d.player.UnityPlayerActivity;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -66,7 +67,7 @@ import dji.thirdparty.rx.Subscription;
 import dji.thirdparty.rx.schedulers.Schedulers;
 
 
-public class DJIfrontEnd extends uwb.xr.unityembed.UnityPlayerActivity {
+public class DJIfrontEnd extends UnityPlayerActivity {
 
     // DJI Required -----------------------
     private static final String TAG = DJIfrontEnd.class.getName();

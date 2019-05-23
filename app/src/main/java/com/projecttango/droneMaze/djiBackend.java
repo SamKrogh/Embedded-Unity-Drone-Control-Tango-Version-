@@ -26,6 +26,7 @@ import com.unity3d.player.UnityPlayer;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
+import java.nio.ByteBuffer;
 
 import dji.sdk.base.BaseComponent;
 import dji.sdk.base.BaseProduct;
@@ -37,11 +38,12 @@ import dji.sdk.products.HandHeld;
 import dji.sdk.sdkmanager.DJISDKManager;
 
 
+
 public class djiBackend extends Application{ //implements TextureView.SurfaceTextureListener{
+    private static final String CANVAS_OBJ = "DroneCanvas";
     public static final String FLAG_CONNECTION_CHANGE = "activationDemo_connection_change";
 
     private DJISDKManager.SDKManagerCallback mDJISDKManagerCallback;
-    //private BaseProduct.BaseProductListener mDJIBaseProductListener;
     private BaseComponent.ComponentListener mDJIComponentListener;
     private static BaseProduct mProduct;
     public Handler mHandler;
@@ -77,10 +79,6 @@ public class djiBackend extends Application{ //implements TextureView.SurfaceTex
      * If no product is connected, it returns null.
      */
     public static synchronized BaseProduct getProductInstance() {
-        /*if (null == mProduct) {
-            mProduct = DJISDKManager.getInstance().getProduct();
-        }
-        return mProduct;*/
         return MApplication.getProductInstance();
     }
 
@@ -123,27 +121,9 @@ public class djiBackend extends Application{ //implements TextureView.SurfaceTex
             }
 
         };
-        /*mDJIBaseProductListener = new BaseProduct.BaseProductListener() {
 
-            @Override
-            public void onComponentChange(BaseProduct.ComponentKey key, BaseComponent oldComponent, BaseComponent newComponent) {
-
-                if (newComponent != null) {
-                    newComponent.setComponentListener(mDJIComponentListener);
-                }
-                notifyStatusChange();
-            }
-
-            @Override
-            public void onConnectivityChange(boolean isConnected) {
-
-                notifyStatusChange();
-            }
-
-        };*/
-
-        //onSurfaceTextureAvailable(null,16*40,9*40); //for YUV data
-        /*mCodecManager.enabledYuvData(true);
+        onSurfaceTextureAvailable(null,16*40,9*40); //for YUV data
+        mCodecManager.enabledYuvData(true);
 
         mCodecManager.setYuvDataCallback(new DJICodecManager.YuvDataCallback() {
             @Override
@@ -219,12 +199,12 @@ public class djiBackend extends Application{ //implements TextureView.SurfaceTex
                     synchronized (this){
                         jdata = baos.toByteArray();
                     }
-                    mUnityPlayer.UnitySendMessage("Canvas","set_frame_ready","true");
+                    UnityPlayer.UnitySendMessage(CANVAS_OBJ,"set_frame_ready","true");
                     ready = true;
                 }
 
             }
-        });*/
+        });
 
         mReceivedVideoDataCallBack = new VideoFeeder.VideoDataListener() {
             @Override
@@ -274,9 +254,6 @@ public class djiBackend extends Application{ //implements TextureView.SurfaceTex
     }
 
      /* Video functions */
-
-    /*
-    @Override
     public void onSurfaceTextureAvailable(SurfaceTexture surface, int width, int height) {
         Log.d(TAG, "onSurfaceTextureAvailable");
         if (mCodecManager == null) {
@@ -285,6 +262,8 @@ public class djiBackend extends Application{ //implements TextureView.SurfaceTex
             Log.d(TAG, "onSurfaceTextureAvailable: "+ mCodecManager.toString());
         }
     }
+
+    /*
     @Override
     public void onSurfaceTextureSizeChanged(SurfaceTexture surface, int width, int height) {
         Log.d(TAG, "onSurfaceTextureSizeChanged");
@@ -431,7 +410,7 @@ public class djiBackend extends Application{ //implements TextureView.SurfaceTex
             yuvimage.compressToJpeg(new Rect(0, 0, width, height), 80, baos);
             Log.d(TAG, "onYuvDataReceived: compress");
             jdata = baos.toByteArray();
-            UnityPlayer.UnitySendMessage("Canvas","set_frame_ready","true");
+            UnityPlayer.UnitySendMessage(CANVAS_OBJ,"set_frame_ready","true");
             ready = true;
             return null;
         }

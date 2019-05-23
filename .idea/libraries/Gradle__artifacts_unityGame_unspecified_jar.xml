@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: artifacts:unityGame:unspecified@jar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/unityGame.aar/4b0b9b5c7afb5008acdaa75067471984/jars/libs/unity-classes.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/unityGame.aar/4b0b9b5c7afb5008acdaa75067471984/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/unityGame.aar/4b0b9b5c7afb5008acdaa75067471984/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/unityGame.aar/41ba96826956c3835108a0182ef4fd6d/jars/libs/unity-classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/unityGame.aar/41ba96826956c3835108a0182ef4fd6d/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/unityGame.aar/41ba96826956c3835108a0182ef4fd6d/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
